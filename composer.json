@@ -1,0 +1,31 @@
+{
+  "name": "mcfog/litcanvas",
+  "description": "a reddit/r/place copy",
+  "type": "project",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "McFog Wang",
+      "email": "mcfogw@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Litcanvas\\": "src"
+    }
+  },
+  "require": {
+    "dflydev/fig-cookies": "^1.0",
+    "league/oauth2-github": "^2.0",
+    "league/plates": "^3.3",
+    "litphp/bolt": "^0.1",
+    "litphp/middlewares": "^0.5.0@dev",
+    "monolog/monolog": "^1.22",
+    "predis/predis": "^1.1",
+    "symfony/finder": "^3.2",
+    "tedivm/stash": "^0.14.1",
+    "twig/twig": "^2.3"
+  }
+}
