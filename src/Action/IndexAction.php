@@ -8,8 +8,6 @@ class IndexAction extends LCAction
 
     protected function main()
     {
-        $r = $this->container->canvas->getAllHex();
-
         return $this->twig('page/index.twig')->render([]);
     }
 }

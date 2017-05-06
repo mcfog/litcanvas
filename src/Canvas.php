@@ -88,6 +88,7 @@ class Canvas
 //        $this->redisClient->set(self::REDIS_KEY, pack('H*', str_repeat('0', 1000 * 1000)));
         $data = $this->redisClient->get(self::REDIS_KEY);
 
+//        return base64_encode($data);
         return current(unpack('H*', $data));
     }
 
