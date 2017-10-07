@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2cf79f63fd316917de144c06a9db9ef2",
-    "content-hash": "daa4c8ae4617b28cfac16a96529a7415",
+    "content-hash": "a5a00e5a8f765fab52861c26a531898b",
     "packages": [
         {
             "name": "dflydev/fig-cookies",
@@ -57,7 +56,7 @@
                 "psr-7",
                 "psr7"
             ],
-            "time": "2016-03-28 09:10:18"
+            "time": "2016-03-28T09:10:18+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -119,7 +118,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-02-28 22:50:30"
+            "time": "2017-02-28T22:50:30+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -170,7 +169,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -235,25 +234,77 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20 17:10:46"
+            "time": "2017-03-20T17:10:46+00:00"
         },
         {
-            "name": "league/oauth2-client",
-            "version": "2.2.0",
+            "name": "http-interop/http-middleware",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thephpleague/oauth2-client.git",
-                "reference": "5f57366c99ac013ee9d78670c1fc0b9ca7871d95"
+                "url": "https://github.com/http-interop/http-middleware.git",
+                "reference": "9a801fe60e70d5d608b61d56b2dcde29516c81b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/thephpleague/oauth2-client/5f57366c99ac013ee9d78670c1fc0b9ca7871d95.zip",
-                "reference": "5f57366c99ac013ee9d78670c1fc0b9ca7871d95",
+                "url": "https://files.phpcomposer.com/files/http-interop/http-middleware/9a801fe60e70d5d608b61d56b2dcde29516c81b9.zip",
+                "reference": "9a801fe60e70d5d608b61d56b2dcde29516c81b9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Http\\ServerMiddleware\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP server-side middleware",
+            "keywords": [
+                "factory",
+                "http",
+                "middleware",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2017-01-14T15:23:42+00:00"
+        },
+        {
+            "name": "league/oauth2-client",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/oauth2-client.git",
+                "reference": "313250eab923e673a5c0c8f463f443ee79f4383f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/thephpleague/oauth2-client/313250eab923e673a5c0c8f463f443ee79f4383f.zip",
+                "reference": "313250eab923e673a5c0c8f463f443ee79f4383f",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.0",
-                "paragonie/random_compat": "^2.0",
+                "paragonie/random_compat": "^1|^2",
                 "php": ">=5.6.0"
             },
             "require-dev": {
@@ -302,7 +353,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2017-02-02 04:08:45"
+            "time": "2017-04-25T14:43:14+00:00"
         },
         {
             "name": "league/oauth2-github",
@@ -357,7 +408,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-01-26 01:14:51"
+            "time": "2017-01-26T01:14:51+00:00"
         },
         {
             "name": "league/plates",
@@ -412,7 +463,7 @@
                 "templating",
                 "views"
             ],
-            "time": "2016-12-28 00:14:17"
+            "time": "2016-12-28T00:14:17+00:00"
         },
         {
             "name": "litphp/bolt",
@@ -420,27 +471,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LitPHP/lit-bolt.git",
-                "reference": "f3fd5da57c1b8acb56d53d2c02b9b6e4be19b1bf"
+                "reference": "c895e192c2e8fa902a1f61886b99be161f1e292f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/LitPHP/lit-bolt/f3fd5da57c1b8acb56d53d2c02b9b6e4be19b1bf.zip",
-                "reference": "f3fd5da57c1b8acb56d53d2c02b9b6e4be19b1bf",
+                "url": "https://files.phpcomposer.com/files/LitPHP/lit-bolt/c895e192c2e8fa902a1f61886b99be161f1e292f.zip",
+                "reference": "c895e192c2e8fa902a1f61886b99be161f1e292f",
                 "shasum": ""
             },
             "require": {
-                "litphp/cached-fast-route": "^0.5",
-                "litphp/lit": "^0.6",
+                "litphp/cached-fast-route": "^0.6",
+                "litphp/lit": "^0.7",
                 "litphp/nexus": "^0.6",
                 "pimple/pimple": "^3.0",
                 "symfony/event-dispatcher": "^3.0",
                 "symfony/property-access": "^3.2",
-                "zendframework/zend-diactoros": "^1.3"
+                "zendframework/zend-diactoros": "^1.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.1.x-dev"
+                    "dev-master": "0.2.x-dev"
                 }
             },
             "autoload": {
@@ -459,32 +510,32 @@
                 }
             ],
             "description": "litphp micro-framework",
-            "time": "2017-02-18 04:53:02"
+            "time": "2017-05-20 14:21:41"
         },
         {
             "name": "litphp/cached-fast-route",
-            "version": "v0.5.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LitPHP/cached-fast-route.git",
-                "reference": "cd23609a02fa444b85fc2f60703d000208eba841"
+                "reference": "0fae7d665b1daf7f411cb32b59c7c61773fc440a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/LitPHP/cached-fast-route/cd23609a02fa444b85fc2f60703d000208eba841.zip",
-                "reference": "cd23609a02fa444b85fc2f60703d000208eba841",
+                "url": "https://files.phpcomposer.com/files/LitPHP/cached-fast-route/0fae7d665b1daf7f411cb32b59c7c61773fc440a.zip",
+                "reference": "0fae7d665b1daf7f411cb32b59c7c61773fc440a",
                 "shasum": ""
             },
             "require": {
-                "litphp/lit": ">=0.5.0",
-                "litphp/nexus": ">=0.5.0",
+                "litphp/lit": ">=0.7.0",
+                "litphp/nexus": ">=0.6.0",
                 "nikic/fast-route": "^1.0",
                 "psr/http-message": "^1.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -502,30 +553,31 @@
                     "email": "mcfogw@gmail.com"
                 }
             ],
-            "time": "2016-05-15 00:51:12"
+            "time": "2017-05-14 02:11:43"
         },
         {
             "name": "litphp/lit",
-            "version": "v0.6.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcfog/lit.git",
-                "reference": "eeceb4a1f960ca083cd331d2896e2ffb73982016"
+                "reference": "297aed432575382df4b44154121ea70c0e19904d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/mcfog/lit/eeceb4a1f960ca083cd331d2896e2ffb73982016.zip",
-                "reference": "eeceb4a1f960ca083cd331d2896e2ffb73982016",
+                "url": "https://files.phpcomposer.com/files/mcfog/lit/297aed432575382df4b44154121ea70c0e19904d.zip",
+                "reference": "297aed432575382df4b44154121ea70c0e19904d",
                 "shasum": ""
             },
             "require": {
-                "litphp/nimo": "^0.2.0",
-                "php": ">=5.5.0"
+                "http-interop/http-middleware": "^0.4.1",
+                "php": ">=7.0.0",
+                "zendframework/zend-stratigility": "^2.0.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6.x-dev"
+                    "dev-master": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -544,7 +596,7 @@
                 }
             ],
             "description": "yet another PHP Framework with extremely tiny codebase",
-            "time": "2017-02-03 07:17:35"
+            "time": "2017-05-20 14:20:50"
         },
         {
             "name": "litphp/middlewares",
@@ -552,21 +604,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/LitPHP/middlewares.git",
-                "reference": "4bf2cec5fcb071a8c404a8003d01d36e7a5f6181"
+                "reference": "d0e6f94bee71b797b953e343bfbb15a486466e89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/LitPHP/middlewares/4bf2cec5fcb071a8c404a8003d01d36e7a5f6181.zip",
-                "reference": "4bf2cec5fcb071a8c404a8003d01d36e7a5f6181",
+                "url": "https://files.phpcomposer.com/files/LitPHP/middlewares/d0e6f94bee71b797b953e343bfbb15a486466e89.zip",
+                "reference": "d0e6f94bee71b797b953e343bfbb15a486466e89",
                 "shasum": ""
             },
             "require": {
-                "litphp/nimo": ">=0.2.0"
+                "litphp/lit": "^0.7.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -584,7 +636,7 @@
                     "email": "mcfogw@gmail.com"
                 }
             ],
-            "time": "2016-05-22 12:32:09"
+            "time": "2017-05-14 03:04:29"
         },
         {
             "name": "litphp/nexus",
@@ -625,62 +677,7 @@
                 }
             ],
             "description": "misc interfaces, traits, and derived classes for lit components",
-            "time": "2017-04-08 00:35:37"
-        },
-        {
-            "name": "litphp/nimo",
-            "version": "0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/LitPHP/nimo.git",
-                "reference": "4da5281430168dc585bb3fb5618c9636f2a2fb73"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/LitPHP/nimo/4da5281430168dc585bb3fb5618c9636f2a2fb73.zip",
-                "reference": "4da5281430168dc585bb3fb5618c9636f2a2fb73",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.5.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8"
-            },
-            "suggest": {
-                "zendframework/zend-diactoros": "PSR-7 implementation and middleware runner"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Nimo\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "McFog Wang",
-                    "email": "mcfogw@gmail.com"
-                }
-            ],
-            "description": "Nimo Is your Middleware Organizer",
-            "keywords": [
-                "http",
-                "http-message",
-                "middleware",
-                "psr",
-                "psr-7"
-            ],
-            "time": "2015-10-18 09:16:47"
+            "time": "2017-04-08T00:35:37+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -758,7 +755,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-03-13 07:08:03"
+            "time": "2017-03-13T07:08:03+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -801,7 +798,7 @@
                 "router",
                 "routing"
             ],
-            "time": "2017-01-19 11:35:12"
+            "time": "2017-01-19T11:35:12+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -849,7 +846,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:27:32"
+            "time": "2017-03-13T16:27:32+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -895,7 +892,7 @@
                 "container",
                 "dependency injection"
             ],
-            "time": "2015-09-11 15:10:35"
+            "time": "2015-09-11T15:10:35+00:00"
         },
         {
             "name": "predis/predis",
@@ -945,7 +942,7 @@
                 "predis",
                 "redis"
             ],
-            "time": "2016-06-16 16:22:20"
+            "time": "2016-06-16T16:22:20+00:00"
         },
         {
             "name": "psr/cache",
@@ -991,7 +988,7 @@
                 "psr",
                 "psr-6"
             ],
-            "time": "2016-08-06 20:24:11"
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/http-message",
@@ -1041,7 +1038,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1088,20 +1085,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca"
+                "reference": "b8a401f733b43251e1d088c589368b2a94155e40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/event-dispatcher/154bb1ef7b0e42ccc792bd53edbce18ed73440ca.zip",
-                "reference": "154bb1ef7b0e42ccc792bd53edbce18ed73440ca",
+                "url": "https://files.phpcomposer.com/files/symfony/event-dispatcher/b8a401f733b43251e1d088c589368b2a94155e40.zip",
+                "reference": "b8a401f733b43251e1d088c589368b2a94155e40",
                 "shasum": ""
             },
             "require": {
@@ -1148,20 +1145,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-04-04 07:26:27"
+            "time": "2017-05-01T14:58:48+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a"
+                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/finder/b20900ce5ea164cd9314af52725b0bb5a758217a.zip",
-                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a",
+                "url": "https://files.phpcomposer.com/files/symfony/finder/9cf076f8f492f4b1ffac40aae9c2d287b4ca6930.zip",
+                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930",
                 "shasum": ""
             },
             "require": {
@@ -1197,20 +1194,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20 09:32:19"
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "symfony/inflector",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/inflector.git",
-                "reference": "4ff27abb356742aa2495ad87a79d724c397ee5c4"
+                "reference": "93cdcef6a06d74379cc314d39bafeb55368e447c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/inflector/4ff27abb356742aa2495ad87a79d724c397ee5c4.zip",
-                "reference": "4ff27abb356742aa2495ad87a79d724c397ee5c4",
+                "url": "https://files.phpcomposer.com/files/symfony/inflector/93cdcef6a06d74379cc314d39bafeb55368e447c.zip",
+                "reference": "93cdcef6a06d74379cc314d39bafeb55368e447c",
                 "shasum": ""
             },
             "require": {
@@ -1254,7 +1251,7 @@
                 "symfony",
                 "words"
             ],
-            "time": "2017-02-20 13:34:33"
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1313,7 +1310,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
@@ -1372,20 +1369,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/property-access",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
-                "reference": "61eaebce4a9fd785f2fb469a661490fcff27b7bf"
+                "reference": "9faa1525b8509705eca72bb2c89965aaa65e089c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/symfony/property-access/61eaebce4a9fd785f2fb469a661490fcff27b7bf.zip",
-                "reference": "61eaebce4a9fd785f2fb469a661490fcff27b7bf",
+                "url": "https://files.phpcomposer.com/files/symfony/property-access/9faa1525b8509705eca72bb2c89965aaa65e089c.zip",
+                "reference": "9faa1525b8509705eca72bb2c89965aaa65e089c",
                 "shasum": ""
             },
             "require": {
@@ -1440,7 +1437,7 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2017-03-21 21:44:32"
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "tedivm/stash",
@@ -1500,20 +1497,20 @@
                 "redis",
                 "sessions"
             ],
-            "time": "2016-02-10 22:23:16"
+            "time": "2016-02-10T22:23:16+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v2.3.0",
+            "version": "v2.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "9718186a5df85a4f7917e78d3ffcabc204c75d25"
+                "reference": "85e8372c451510165c04bf781295f9d922fa524b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/twigphp/Twig/9718186a5df85a4f7917e78d3ffcabc204c75d25.zip",
-                "reference": "9718186a5df85a4f7917e78d3ffcabc204c75d25",
+                "url": "https://files.phpcomposer.com/files/twigphp/Twig/85e8372c451510165c04bf781295f9d922fa524b.zip",
+                "reference": "85e8372c451510165c04bf781295f9d922fa524b",
                 "shasum": ""
             },
             "require": {
@@ -1563,7 +1560,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-03-22 15:41:51"
+            "time": "2017-04-21T00:13:02+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -1615,7 +1612,105 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-04-06 16:18:34"
+            "time": "2017-04-06T16:18:34+00:00"
+        },
+        {
+            "name": "zendframework/zend-escaper",
+            "version": "2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-escaper.git",
+                "reference": "2dcd14b61a72d8b8e27d579c6344e12c26141d4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zendframework/zend-escaper/2dcd14b61a72d8b8e27d579c6344e12c26141d4e.zip",
+                "reference": "2dcd14b61a72d8b8e27d579c6344e12c26141d4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "1.7.*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev",
+                    "dev-develop": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Escaper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "homepage": "https://github.com/zendframework/zend-escaper",
+            "keywords": [
+                "escaper",
+                "zf2"
+            ],
+            "time": "2016-06-30T19:48:38+00:00"
+        },
+        {
+            "name": "zendframework/zend-stratigility",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-stratigility.git",
+                "reference": "229e7d94010d09d9e68096ff6f1d35f354d8dac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zendframework/zend-stratigility/229e7d94010d09d9e68096ff6f1d35f354d8dac9.zip",
+                "reference": "229e7d94010d09d9e68096ff6f1d35f354d8dac9",
+                "shasum": ""
+            },
+            "require": {
+                "http-interop/http-middleware": "^0.4.1",
+                "php": "^5.6 || ^7.0",
+                "psr/http-message": "^1.0",
+                "zendframework/zend-escaper": "^2.3"
+            },
+            "require-dev": {
+                "malukenho/docheader": "^0.1.5",
+                "phpunit/phpunit": "^5.7",
+                "zendframework/zend-coding-standard": "~1.0.0",
+                "zendframework/zend-diactoros": "^1.0"
+            },
+            "suggest": {
+                "psr/http-message-implementation": "Please install a psr/http-message-implementation to consume Stratigility; e.g., zendframework/zend-diactoros"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.0-dev",
+                    "dev-develop": "2.1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Stratigility\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Middleware for PHP",
+            "homepage": "https://github.com/zendframework/zend-stratigility",
+            "keywords": [
+                "http",
+                "middleware",
+                "psr-7"
+            ],
+            "time": "2017-01-25T19:16:16+00:00"
         }
     ],
     "packages-dev": [],

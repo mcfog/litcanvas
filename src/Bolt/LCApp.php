@@ -10,6 +10,6 @@ class LCApp extends BoltApp
     {
         parent::__construct($container);
 
-        $this->append($container->produce(ErrorHandler::class));
+//        $this->pipe($container->produce(ErrorHandler::class));
     }
 }

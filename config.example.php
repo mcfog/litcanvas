@@ -7,6 +7,7 @@ return array_merge_recursive([
     'container' => [
         'Twig_Environment:options' => [
             'cache' => __DIR__ . '/data/cache/twig',
+            'auto_reload' => true,
         ],
         'Stash\Driver\FileSystem:options' => [
             'path' => __DIR__ . '/data/cache/stash',

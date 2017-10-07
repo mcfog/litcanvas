@@ -3,6 +3,7 @@
 use Lit\Bolt\BoltContainer;
 use Litcanvas\Bolt\LCAction;
 use Litcanvas\Canvas;
+use Psr\Http\Message\ResponseInterface;
 
 class GetCanvasAction extends LCAction
 {
@@ -19,11 +20,10 @@ class GetCanvasAction extends LCAction
         $this->canvas = $canvas;
     }
 
-
-    protected function main()
+    protected function main(): ResponseInterface
     {
         return $this->json()->render([
-            'canvas' => $this->canvas->getAllHex(),
+            'canvas' => $this->canvas->getBase64(),
         ]);
     }
 }

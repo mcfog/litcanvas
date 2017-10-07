@@ -26,4 +26,5 @@ abstract class LCAction extends BoltAction
 
         return $this->attachView($view);
     }
+
 }

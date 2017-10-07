@@ -64,7 +64,7 @@ class Canvas
         $img = imagecreate(CANVAS_WIDTH, CANVAS_HEIGHT);
 
         $color = [];
-        $allHex = $this->getAllHex();
+        $allHex = $this->getBase64();
 
         foreach (str_split($allHex) as $i => $c) {
             list($x, $y) = self::offset2cord($i);
@@ -83,13 +83,11 @@ class Canvas
         return $img;
     }
 
-    public function getAllHex()
+    public function getBase64()
     {
-//        $this->redisClient->set(self::REDIS_KEY, pack('H*', str_repeat('0', 1000 * 1000)));
         $data = $this->redisClient->get(self::REDIS_KEY);
 
-//        return base64_encode($data);
-        return current(unpack('H*', $data));
+        return base64_encode($data);
     }
 
     /**
