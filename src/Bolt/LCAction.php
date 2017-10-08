@@ -1,5 +1,6 @@
 <?php namespace Litcanvas\Bolt;
 
+use Lit\Air\Factory;
 use Lit\Bolt\BoltAction;
 use Litcanvas\Twig\TwigView;
 
@@ -19,7 +20,7 @@ abstract class LCAction extends BoltAction
         /**
          * @var TwigView $view
          */
-        $view = $this->container->instantiate(TwigView::class, [
+        $view = Factory::of($this->container)->instantiate(TwigView::class, [
             'name' => $name,
             'data' => [],
         ]);
